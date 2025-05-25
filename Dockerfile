@@ -37,7 +37,7 @@ LABEL org.opencontainers.image.title="blocky" \
 
 
 
-USER 100
+#USER 100
 WORKDIR /app
 
 COPY --from=build /bin/blocky /app/blocky
